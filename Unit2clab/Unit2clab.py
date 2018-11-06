@@ -8,7 +8,9 @@ print(subList2)
 myClasses = ['mandarin','intro to calc','independant study','economics','python programming','AP comp','prayer','US government','marine biology']
 myClasses.remove('intro to calc')
 print(myClasses)
-myClasses.pop()
+favClasses = myClasses.pop(6)
+print (myClasses)
+print(favClasses)
 
 
 
